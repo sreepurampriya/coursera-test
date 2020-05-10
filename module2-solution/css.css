@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-color: black;
+    font-size: 18px;
+    margin: 10px;
+}
+
+div{
+    padding:10px;
+    border: 2px double rgb(0, 0, 0);
+    margin-top: 10px;
+    width: 100%;
+    height:auto;
+    background-color: gray;
+    position: relative;
+}
+
+
+h2{
+    text-align: right;
+    margin: 0;
+    border: 2px double rgb(0, 0, 0);
+    background-color: rgb(156, 133, 97);
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+p{
+    padding-top: 10px;
+}
+
+
+/************************mediam size***********************************/
+@media (min-width:768px) and (max-width:991px){
+    .ms1 , .ms2 , .ms3{
+        float:left;
+    }
+    
+    .ms1{
+        margin-right: 1%;
+        width: 49.5%;
+    }
+
+    .ms2{
+        width: 49.5%;
+    }
+
+    .ms3{
+        width: 100%;
+    }
+}
+
+
+
+/******************************large size ***********************************/
+@media (min-width: 992px){
+    .ls1 , .ls2 , .ls3{
+        float: left;
+        align-items: center;
+        width:33%;
+    }
+    .ls1{
+        margin-right: 0.5%;
+    }
+
+    .ls2{
+        margin-right: 0.5%;
+    }
+
+
+    

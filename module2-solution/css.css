@@ -5,11 +5,11 @@
 h1{
     font-size: 2em;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 body{
-    background-color: rgb(72,61,139);
+    background-color: rgb(255,250,205);
     font-size: 18px;
     margin: 10px;
 }

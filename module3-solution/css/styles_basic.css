@@ -2,14 +2,14 @@ body {
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #1a1a1a;
-    background-color: #599e4b;
+    background-color: rgb(0,128,128);
 }
 
 
 /** HEADER **/
 
 #header-nav {
-    background-color: #c98715;
+    background-color: gray;
     border-radius: 0;
     border: 0;
 }
@@ -88,7 +88,7 @@ body {
 }
 
 #main-section {
-    background-color: #82d06b;
+    background-color: gray;
     box-shadow: 0 0 50px #0f5900;
     padding: 30px;
 }
